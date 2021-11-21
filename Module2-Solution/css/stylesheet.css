@@ -1,13 +1,14 @@
 * {
-
-}
-.top-right {
-    position: top right;
-    border-radius: 1px;
-
+    box-sizing: border-box;
+    border-radius: 2px;
+    border-color: black;
 }
 
-div div {
-    border-radius: 1px;
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+section p:nth-child(1) {
     background-color: gray;
 }
