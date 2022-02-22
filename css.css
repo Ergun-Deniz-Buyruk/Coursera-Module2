@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+}
+
+.row{
+    width: 100%;
+}
+
+/* Mobile */
+@media(max-width: 768px){
+    .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+}
+
+/* Tablet */
+@media(min-width: 768px){
+    .col-md-6{
+        width: 45%;
+        float: left;
+    }
+}
+
+/* Desktop */
+@media(min-width: 992px){
+    .col-lg-4{
+        width: 30%;
+        float: left;
+    }
+}
+
+.heading-title {
+text-align: center;
+text-size-adjust: 75%;
+}
+.position-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-bottom: 0px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.position-title{
+    position: absolute;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.chicken-title {
+    background-color: rgb(236, 170, 211);
+}
+
+.beef-title {
+    background-color: rgb(231, 147, 147);
+}
+
+.sushi-title{
+    background-color: rgb(248, 239, 157);
+}
+
+.aaa{
+    transform: translate(-50%, -50%);
+}
